@@ -53,9 +53,9 @@
      -->
      <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">  
         <property name="driverClassName" value="com.mysql.jdbc.Driver" />  
-        <property name="url" value="jdbc:mysql://localhost:3306/registration" />  
-        <property name="username" value="root" />  
-        <property name="password" value="root.123" />  
+        <property name="url" value="jdbc:mysql://112.74.95.26:3306/regist" />  
+        <property name="username" value="regist" />  
+        <property name="password" value="207207" />  
         <!-- 初始化连接大小 -->  
         <property name="initialSize" value="0"></property>  
         <!-- 连接池最大数量 -->  
