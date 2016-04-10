@@ -2,8 +2,7 @@ package com.registration.po;
 
 import java.sql.Date;
 
-public class Student {
-	private String id;
+public class Student extends User{
 	private Date birthday;
 	private String gender;
 	private String academySite;
@@ -11,12 +10,6 @@ public class Student {
 	private int emergencyContactNumber;
 	public Student(){
 		
-	}
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
 	}
 	public Date getBirthday() {
 		return birthday;

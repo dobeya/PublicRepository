@@ -1,18 +1,18 @@
 package com.registration.po;
 
 public class User {
-	private String id;
-	private String firstName;
-	private String lastName;
-	private String email;
-	private String mi;
-	private String cellNumber;
-	private String address;
-	private String city;
-	private String state;
-	private String zipCode;
-	private String password;
-	private String userType;
+	protected String id;
+	protected String firstName;
+	protected String lastName;
+	protected String email;
+	protected String mi;
+	protected String cellNumber;
+	protected String address;
+	protected String city;
+	protected String state;
+	protected String zipCode;
+	protected String password;
+	protected String userType;
 	public User(){
 		
 	}

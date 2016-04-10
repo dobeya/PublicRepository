@@ -1,17 +1,10 @@
 package com.registration.po;
 
-public class Instructor {
-	private String id;
+public class Instructor extends User{
 	private String degree;
 	private String skill;
 	public Instructor(){
 		
-	}
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
 	}
 	public String getDegree() {
 		return degree;

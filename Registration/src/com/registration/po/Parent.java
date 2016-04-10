@@ -1,18 +1,11 @@
 package com.registration.po;
 
-public class Parent {
-	private String id;
+public class Parent  extends User{
 	private String child;
 	private String relationship;
 	private String worknum;
 	public Parent(){
 		
-	}
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-		this.id = id;
 	}
 	public String getChild() {
 		return child;
